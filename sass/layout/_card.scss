@@ -1,0 +1,43 @@
+.section-card {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section-card__list {
+    display: flex;
+    gap: 30px;
+
+}
+
+.section-card__item {
+    width: 270px;
+}
+
+.section-card__background {
+    width: 270px;
+    height: 120px;
+    background-color: var(--button-stat-color);
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.section-card__title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    color: var(--title-color);
+    margin-bottom: 10px;
+}
+
+.section-card__icon {
+    height: 70px;
+    width: 70px;
+
+}
+
+.section-card__content {
+    line-height: 1.71;
+}

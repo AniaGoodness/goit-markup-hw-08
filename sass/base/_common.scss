@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+:root {
+    --bg-color: #2F303A;
+    --link-button-color: #2196F3;
+    --content-color: #757575;
+    --title-color: #212121;
+    --primary-color: white;
+    --second-color: black;
+    --button-stat-color: #F5F4FA;
+    --footer-color: rgba(255, 255, 255, 0.6);
+    --social-icon-color: #AFB1B8;
+}
+
+body {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 14px;
+    color: var(--content-color);
+    letter-spacing: 0.03em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+address {
+    font-style: normal;
+}
+
+button {
+    display: block;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+
+
