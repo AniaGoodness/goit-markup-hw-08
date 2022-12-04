@@ -2,20 +2,19 @@
     padding: 200px 0;
     text-align: center;
     background-color: var(--bg-color);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bannerimage.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/banner/banner-mobile.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    max-width: 1600px;
-    height: 600px;
+    max-width: 480px;
+    height: 400px;
     margin: 0 auto;
 }
-
 .banner__title {
     color: var(--primary-color);
-    width: 696px;
-    font-size: 44px;
-    line-height: 1.36;
+    width: 365px;
+    font-size: 26px;
+    line-height: 1.62;
     font-weight: 900;
     text-align: center;
     letter-spacing: 0.06em;
@@ -23,7 +22,6 @@
     margin: 0 auto;
     margin-bottom: 30px;
 }
-
 .banner__button {
     font-weight: 700;
     line-height: 1.88;
@@ -40,3 +38,39 @@
     background-color: var(--link-button-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+
+@media screen and (min-width: 480px) {
+    .banner {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/banner/banner-tablet.jpg");
+        max-width: 768px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .banner {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/banner/bannerimage.jpg");
+        max-width: 1199px;
+        height: 400px;
+    }
+                .banner__title {
+                    width: 696px;
+                    font-size: 44px;
+                    line-height: 1.36;
+                }
+}
+
+@media screen and (min-width: 1200px) {
+    .banner {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/banner/bannerimage.jpg");
+        max-width: 1600px;
+        height: 600px;
+    }
+    .banner__title {
+        width: 696px;
+        font-size: 44px;
+        line-height: 1.36;
+    }
+
+}
+
