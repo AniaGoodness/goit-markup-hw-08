@@ -1,5 +1,6 @@
 .footer-banner {
     background-color: var(--bg-color);
+    min-width: 320px;
     padding: 60px 0;
     .footer-banner__container {
         display: flex;
@@ -40,6 +41,7 @@
         }
         .footer-banner__container-social {
             text-align: center;
+            margin-top: 60px;
 
             .footer-banner__title {
                 color: var(--primary-color);
@@ -69,7 +71,11 @@
 
 @media screen and (min-with: 768px) {
     .footer-banner {
-        max-width: 1199px;
+        min-width: auto;
+        display: flex;
+        align-items: baseline;
+        flex-direction: row;
+
         .footer-banner__container {
             display: flex;
             align-items: baseline;
@@ -113,7 +119,7 @@
                 }
             }
             
-            .footer-banner__item--f-color {
+           .footer-banner__item--f-color {
                 padding-left: 0;
                 color: var(--footer-color);
                 text-decoration: none;
@@ -136,7 +142,6 @@
     
 @media screen and (min-with: 1200px) {
     .footer-banner { 
-        max-width: 1200px;   
             .footer-banner__container {
                 display: flex;
                 align-items: baseline;

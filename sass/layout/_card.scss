@@ -8,9 +8,8 @@
         flex-wrap: wrap;
     
         .section-card__item {
-            width: 450px;
             .section-card__background {
-                width: 450px;
+
                 height: 120px;
                 background-color: var(--button-stat-color);
                 margin-bottom: 30px;
@@ -47,7 +46,6 @@
 
 @media screen and (min-width: 480px) {
     .section-card {
-        max-width: 767px;
         .section-card__list {
             display: flex;
             flex-wrap: wrap;
@@ -88,9 +86,8 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
     .section-card {
-        max-width: 1199px;
         padding-top: 94px;
         padding-bottom: 94px;
 
@@ -136,7 +133,6 @@
 
 @media screen and (min-width: 1200px) {
     .section-card {
-        width: 1200px;
         padding-top: 94px;
         padding-bottom: 94px;
         
