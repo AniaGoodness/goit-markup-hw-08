@@ -1,6 +1,9 @@
 .section-clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 100%;
+    margin: 0 auto;
+
 
 
     .section-clients__title {
@@ -15,6 +18,9 @@
     .section-clients__list {
         align-items: center;
         justify-content: center;
+            display: flex;
+                flex-wrap: wrap;
+                gap: 30px;
 
         .section-clients__link {
             display: flex;

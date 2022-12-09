@@ -1,5 +1,5 @@
 .banner {
-    padding: 200px 0;
+    padding: 118px 0;
     text-align: center;
     background-color: var(--bg-color);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/banner/banner-mobile.jpg");
@@ -12,7 +12,7 @@
 }
 .banner__title {
     color: var(--primary-color);
-    width: 365px;
+    max-width: 365px;
     font-size: 26px;
     line-height: 1.62;
     font-weight: 900;
@@ -73,4 +73,22 @@
     }
 
 }
+
+/*
+.box {
+    width: 480px;
+    height: 320px;
+    background-image: url('photo.png');
+    background-size: 480px 320px;
+}
+
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .box {
+        background-image: url('photo@2x.png');
+    }
+}
+*/
 

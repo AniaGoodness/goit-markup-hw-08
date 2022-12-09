@@ -1,7 +1,7 @@
 .section-team {
     background-color: var(--button-stat-color);
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     margin: 0 auto;
     .section-team__title {
             font-weight: 700;
@@ -21,11 +21,6 @@
             }
     }
 }
-
-
-
-
-
 
 .section-team__content {
     padding: 30px 0;
@@ -85,4 +80,10 @@
         }
     }
 
+}
+@media screen and (min-width: 1200px) {
+    .section-team {
+            padding-top: 94px;
+                padding-bottom: 94px;
+    }
 }

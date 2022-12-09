@@ -8,6 +8,7 @@
         flex-wrap: wrap;
     
         .section-card__item {
+            margin-bottom: 30px;
             .section-card__background {
 
                 height: 120px;
@@ -36,7 +37,6 @@
             }
             .section-card__content {
                 line-height: 1.71;
-                margin-bottom: 30px;
             }
                         
         }
