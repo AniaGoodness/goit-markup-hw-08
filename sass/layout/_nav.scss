@@ -18,24 +18,66 @@
           font-weight: 700;
           color: var(--second-color);
           text-decoration: none;
+          .footer-banner__logo--blue {
+            color: var(--link-button-color);
+          }
         }
         .header-contact {
           display: none;
         }
-        .menu-toggle {
-          min-height: 40px;
-          min-width: 40px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
+        .menu-container {
+          .menu-toggle {
+            min-height: 40px;
+            min-width: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
       
-          margin: 0;
-          padding: 0;
-          background-color: transparent;
-          cursor: pointer;
-          border: none;
-          border-radius: 50%;
-          outline: none;
+            margin: 0;
+            padding: 0;
+            background-color: transparent;
+            cursor: pointer;
+            border: none;
+            border-radius: 50%;
+            outline: none;
+          }
+          .mobile-menu {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+          }
+          .mobile-menu__social-list {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 16px;
+            .mobile-menu__social-list__item a {
+              color: var(--link-button-color);
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 1.22;
+              letter-spacing: 0.02em;
+            }
+          }
+          .menu-container__header-contact {
+            text-decoration: none;
+            line-height: 1.17;
+            color: var(--content-color);
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin-left: auto;
+            padding: 32px 0;
+    
+            .contact-icon {
+              display: none;
+            }
+    
+            .contact-icon-phone {
+                display: none;
+            }
+
           }
       }
 }
@@ -65,9 +107,6 @@
           text-decoration: none;
         }
 
-        .header-contact {
-          display: none;
-        }
       }
     }
 }
@@ -153,6 +192,9 @@
         }
                 .mobile-menu {
                   display: none;
+                  .mobile-menu__social-list {
+                    display: none;
+                  }
                 }
   }
 }
@@ -264,4 +306,5 @@ svg:hover,
 .current {
   color: var(--link-button-color);
   position: relative;
+}
 }
