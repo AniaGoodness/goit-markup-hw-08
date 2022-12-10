@@ -57,6 +57,13 @@
             }
         }
 }
+
+@media screen and (min-width: 480px) {
+    .input-email {
+        width: 450px;
+        
+    } 
+}
 @media screen and (min-with: 1199px) {
     .footer-form {
         display: flex;

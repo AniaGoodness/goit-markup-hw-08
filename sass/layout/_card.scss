@@ -9,6 +9,7 @@
     
         .section-card__item {
             margin-bottom: 30px;
+
             .section-card__background {
 
                 height: 120px;
@@ -41,6 +42,7 @@
                         
         }
 
+
     }
 }
 
@@ -50,9 +52,7 @@
             display: flex;
             flex-wrap: wrap;
                 .section-card__item {
-                    width: 354px;
                     .section-card__background {
-                        width: 354px;
                         height: 120px;
                         background-color: var(--button-stat-color);
                         margin-bottom: 30px;
@@ -97,10 +97,9 @@
             gap: 30px;
 
             .section-card__item {
-                width: 270px;
+                margin-bottom: 30px;
     
                 .section-card__background {
-                    width: 270px;
                     height: 120px;
                     background-color: var(--button-stat-color);
                     margin-bottom: 30px;
@@ -126,6 +125,9 @@
                 .section-card__content {
                     line-height: 1.71;
                 }
+                li:last-child {
+                    margin-bottom: 0;
+                }
             }
         }
     }
@@ -144,7 +146,6 @@
             .section-card__item {
                 width: 270px;
                 .section-card__background {
-                    width: 270px;
                     height: 120px;
                     background-color: var(--button-stat-color);
                     margin-bottom: 30px;
