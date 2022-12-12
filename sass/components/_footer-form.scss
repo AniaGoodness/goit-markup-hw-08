@@ -116,9 +116,11 @@
 @media screen and (min-width: 1200px) {
     .footer-form {
             display: flex;
+            flex-direction: row;
             align-items: flex-end;
-            max-width: 570px;
             margin-left: auto;
+            margin-top: 0; 
+            gap: 10px;
     
             .footer-banner__title {
                 position: relative;
