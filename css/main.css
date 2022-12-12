@@ -1114,9 +1114,6 @@ svg:hover,
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.section-card .section-card__list .section-card__item {
-  margin-bottom: 30px;
-}
 .section-card .section-card__list .section-card__item .section-card__background {
   height: 120px;
   background-color: var(--button-stat-color);
@@ -1189,18 +1186,18 @@ svg:hover,
 @media screen and (min-width: 768px) {
   .section-card {
     padding-top: 94px;
-    padding-bottom: 94px;
+    padding-bottom: 45px;
   }
   .section-card .section-card__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     gap: 30px;
   }
   .section-card .section-card__list .section-card__item {
-    margin-bottom: 30px;
+    width: 354px;
   }
   .section-card .section-card__list .section-card__item .section-card__background {
     height: 120px;

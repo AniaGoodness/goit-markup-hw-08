@@ -8,7 +8,6 @@
         flex-wrap: wrap;
     
         .section-card__item {
-            margin-bottom: 30px;
 
             .section-card__background {
 
@@ -85,15 +84,15 @@
 @media screen and (min-width: 768px) {
     .section-card {
         padding-top: 94px;
-        padding-bottom: 94px;
+        padding-bottom: 45px;
 
         .section-card__list {
             display: flex;
-            flex-wrap: nowrap;
+            flex-wrap: wrap;
             gap: 30px;
 
             .section-card__item {
-                margin-bottom: 30px;
+                width: 354px;
     
                 .section-card__background {
                     height: 120px;
