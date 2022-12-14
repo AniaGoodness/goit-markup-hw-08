@@ -532,7 +532,7 @@ textarea:hover {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
-    margin-left: auto;
+    margin-left: 78px;
     max-width: 570px;
     margin-top: 0;
   }
@@ -1081,6 +1081,7 @@ svg:hover,
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/banner/bannerimage.jpg");
     max-width: 1600px;
     height: 600px;
+    padding: 200px 0;
   }
   .banner .banner__title {
     color: var(--primary-color);
@@ -1285,6 +1286,7 @@ svg:hover,
   }
   .section-card .section-card__list .section-card__item .section-card__title {
     font-size: 14px;
+    text-align: left;
     font-weight: 700;
     line-height: 1.14;
     color: var(--title-color);
