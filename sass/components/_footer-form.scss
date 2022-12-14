@@ -68,7 +68,7 @@
         display: flex;
         align-items: flex-end;
         max-width: 768px;
-        margin-left: auto;
+        margin-left: 78px;
         .footer-banner__title {
             color: var(--primary-color);
             max-width: 358px;
@@ -119,8 +119,8 @@
             flex-direction: row;
             align-items: flex-end;
             margin-left: auto;
+            max-width: 570px;
             margin-top: 0; 
-            gap: 10px;
     
             .footer-banner__title {
                 position: relative;
@@ -128,7 +128,7 @@
                 margin-right: 12px;
     
                 .input-email {
-                    margin-right: 0;
+                    width: 358px;
                 }
             }
     

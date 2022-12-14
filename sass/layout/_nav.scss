@@ -249,6 +249,11 @@
         .header-contact__link {
           font-size: 12px;
         }
+        .list:not(:last-child) {
+          margin-bottom: 10px;
+        }
+        
+
       
         .contact-icon {
           margin-right: 10px;

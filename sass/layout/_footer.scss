@@ -151,7 +151,7 @@
             
 }
     
-@media screen and (min-with: 1200px) {
+@media screen and (min-width: 1200px) {
     .footer-banner { 
         padding: 60px 0;
         .footer-banner__container {
@@ -159,6 +159,29 @@
             display: flex;
             align-items: baseline;
             flex-direction: row;
+            .footer-banner__logo {
+                font-size: 26px;
+                line-height: 1.19;
+                margin-bottom: 20px;
+                text-align: left;
+                        
+                .footer-banner__link {
+                    .footer-banner__logo--white {
+                        color: var(--primary-color);
+                        transition-property: color;
+                        transition-duration: 250ms;
+                        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                    }
+                        
+                    .footer-banner__logo--blue {
+                        color: var(--link-button-color);
+                    }
+                        
+                }
+            }
+            .footer-banner__container--logo {
+                text-align: left;
+            }
             .footer-banner__container-social {
                 margin-left: 70px;
                 .footer-banner__title {
@@ -166,28 +189,12 @@
                     font-weight: 700;
                     line-height: 1.14;
                 }
-            }
-    
-            .footer-banner__logo {
-                font-size: 26px;
-                line-height: 1.19;
-                margin-bottom: 20px;
-    
-                .footer-banner__link {
-    
-                    .footer-banner__logo--white {
-                        color: var(--primary-color);
-                        transition-property: color;
-                        transition-duration: 250ms;
-                        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-                    }
-                    .footer-banner__logo--blue {
-                        color: var(--link-button-color);
-                    }
-    
+                &.social-list {
+                    margin-left: 70px;
                 }
             }
     
+ 
             .footer-banner__address {
                 font-style: normal;
                 line-height: 1.71;
